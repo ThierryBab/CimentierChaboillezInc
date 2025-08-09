@@ -86,6 +86,9 @@
     background: var(--bs-primary);
 }
 
+.lang-option:hover {
+    color: #ffffff; /* ou une autre couleur de ton thème */
+}
 
 /*** Topbar Start ***/
 .topbar .dropdown-toggle::after {
@@ -121,8 +124,8 @@
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Roboto', sans-serif;
     position: relative;
-    margin-right: 25px;
-    padding: 35px 0;
+    margin-right: 100px;
+    padding: 35px 0px;
     color: var(--bs-white);
     font-size: 17px;
     font-weight: 400;
@@ -434,7 +437,34 @@
 .service .service-item:hover .service-img img {
     transform: scale(1.2);
 }
+
+.service .service-item:hover .rounded-bottom a.h4 {
+    color: #000000;
+}
 /*** Service End ***/
+
+.btn-wave {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-wave::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.3);
+  transform: translate(-50%, -50%);
+  transition: width 0.4s ease, height 0.4s ease;
+  z-index: 0;
+}
+
+.btn-wave:hover::after {
+  width: 200%;
+  height: 200%;
+}
 
 
 /*** Features Start ***/

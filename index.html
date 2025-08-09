@@ -65,11 +65,16 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="index.html" class="nav-item nav-link active">Accueil</a>
-                    <a href="#" class="nav-item nav-link">Services</a>
-                    <a href="#" class="nav-item nav-link">Réalisations</a>
+                    <a href="index.html" class="nav-item nav-link active">ACCUEIL</a>
+                    <a href="#" class="nav-item nav-link">SERVICES</a>
+                    <a href="#" class="nav-item nav-link">RÉALISATIONS</a>
                 </div>
-                <a href="#" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">NOUS
+                <div class="language-switcher d-flex align-items-center mx-2">
+                    <a href="/index.html" class="lang-option px-2 text-decoration-none fw-bold">FR</a>
+                    <span class="divider">|</span>
+                    <a href="/en/index.html" class="lang-option px-2 text-decoration-none fw-bold">EN</a>
+                </div>
+                <a href="#" class="btn btn-primary py-2 px-4 my-3 my-lg-0 flex-shrink-0" style="border-radius: 0;">NOUS
                     JOINDRE</a>
             </div>
         </nav>
@@ -88,14 +93,15 @@
                                     <h1 class="display-4 text-uppercase text-white mb-4">Expert en finition de béton au
                                         Québec</h1>
                                     <p class="mb-5 fs-5">Référence incontournable dans le domaine de la finition et du
-                                        polissage de béton commercial, industriel et institutionnel au Québec.
+                                        polissage de béton au Québec.
                                     </p>
                                     <div
                                         class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
-                                        <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2"
-                                            href="contact.html">Soumission</a>
-                                        <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2"
-                                            href="tel:4382275660">438-227-5660</a>
+                                        <a class="btn btn-light py-3 px-4 px-md-5 me-2 btn-wave"
+                                            style="border-radius: 0;" href="contact.html">Soumission</a>
+                                        <a class="btn btn-primary py-3 px-4 px-md-5 ms-2 btn-wave"
+                                            style="border-radius: 0;" href="tel:4382275660"><i
+                                                class="fas fa-phone-alt me-2"></i>438-227-5660</a>
                                     </div>
                                     <div
                                         class="d-flex align-items-center justify-content-center justify-content-md-end">
@@ -124,13 +130,14 @@
                                     <h1 class="display-4 text-uppercase text-white mb-4">Expert en finition de béton au
                                         Québec</h1>
                                     <p class="mb-5 fs-5">Référence incontournable dans le domaine de la finition et du
-                                        polissage de béton commercial, industriel et institutionnel au Québec.
+                                        polissage de béton au Québec.
                                     </p>
                                     <div class="d-flex justify-content-center flex-shrink-0 mb-4">
-                                        <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2"
-                                            href="contact.html">Soumission</a>
-                                        <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2"
-                                            href="#">438-227-5660</a>
+                                        <a class="btn btn-light py-3 px-4 px-md-5 me-2 btn-wave"
+                                            style="border-radius: 0;" href="contact.html">Soumission</a>
+                                        <a class="btn btn-primary py-3 px-4 px-md-5 ms-2 btn-wave"
+                                            style="border-radius: 0;" href="#"><i
+                                                class="fas fa-phone-alt me-2"></i>438-227-5660</a>
                                     </div>
                                     <div class="d-flex align-items-center justify-content-center">
                                         <h2 class="text-white me-2">Suivez-nous</h2>
@@ -152,376 +159,94 @@
     </div>
     <!-- Navbar & Hero End -->
 
-    <!-- Services Start -->
     <div class="container-fluid service py-5">
         <div class="container py-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <h4 class="text-primary">Nos services spécialisés en béton</h4>
-                <p class="mb-0">Nous offrons une gamme complète de services spécialisés en béton, adaptés à vos besoins
-                    industriels, commerciaux et institutionnels.</p>
-                <p class="mb-0">Notre expertise garantit des solutions durables, efficaces et réalisées avec précision.
-                </p>
+                <h1 class="display-5 mb-4">Nos services</h1>
+                <p class="mb-0">Nous offrons une gamme complète de services, adaptés à vos besoins.</p>
             </div>
 
-            <!-- Ajout de justify-content-center ici -->
             <div class="row g-4 justify-content-center">
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                <!-- 4 services en 2 colonnes -->
+                <div class="col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/couleeTemporaire.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="rounded-bottom p-4">
+                            <a href="#" class="h4 d-inline-block mb-3">Coulée et finition de béton</a>
+                            <ul class="mb-0 ps-3">
+                                <li>Coulée de dalle au sol (jusqu’à 45,000 p.c. par coulée)</li>
+                                <li>Coulée de dalle structurale</li>
+                                <li>Finition manuelle et avec équipement</li>
+                                <li>Service de cure NCF et polythène</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/BETONPoli.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="rounded-bottom p-4">
+                            <a href="#" class="h4 d-inline-block mb-3">Polissage de béton</a>
+                            <ul class="mb-0 ps-3">
+                                <li>Polissage au diamant</li>
+                                <li>Finition agrégat exposé (poivre et sel)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/preparation.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="rounded-bottom p-4">
+                            <a href="#" class="h4 d-inline-block mb-3">Préparation et resurfaçage de surface</a>
+                            <ul class="mb-0 ps-3">
+                                <li>Blastrac (grenaillage)</li>
+                                <li>Scarification (à lame et à baril)</li>
+                                <li>Meulage et bouchardage</li>
+                                <li>Retrait de contaminant</li>
+                                <li>Enlèvement de membranes</li>
+                                <li>Restauration de planchers de béton</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="service-item">
                         <div class="service-img">
                             <img src="img/5fea2953-f821-4dd7-8f49-df57317b5de8.jpg" class="img-fluid rounded-top w-100"
                                 alt="Image">
                         </div>
                         <div class="rounded-bottom p-4">
-                            <a href="#" class="h4 d-inline-block mb-4">Préparation et resurfaçage de surface</a>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint?
-                                Excepturi facilis neque nesciunt similique officiis veritatis,
-                            </p>
+                            <a href="#" class="h4 d-inline-block mb-3">Sciage et scellants</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+
+                <!-- 5e service sous, largeur 2 colonnes -->
+                <div class="col-md-12 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="service-item">
                         <div class="service-img">
                             <img src="img/5fea2953-f821-4dd7-8f49-df57317b5de8.jpg" class="img-fluid rounded-top w-100"
                                 alt="Image">
                         </div>
                         <div class="rounded-bottom p-4">
-                            <a href="#" class="h4 d-inline-block mb-4">Coulée et finition de béton</a>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint?
-                                Excepturi facilis neque nesciunt similique officiis veritatis,
-                            </p>
+                            <a href="#" class="h4 d-inline-block mb-3">Revêtement commercial (Epoxy)</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="service-item">
-                        <div class="service-img">
-                            <img src="img/5fea2953-f821-4dd7-8f49-df57317b5de8.jpg" class="img-fluid rounded-top w-100"
-                                alt="Image">
-                        </div>
-                        <div class="rounded-bottom p-4">
-                            <a href="#" class="h4 d-inline-block mb-4">Sciage et scellants</a>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint?
-                                Excepturi facilis neque nesciunt similique officiis veritatis,
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="service-item">
-                        <div class="service-img">
-                            <img src="img/5fea2953-f821-4dd7-8f49-df57317b5de8.jpg" class="img-fluid rounded-top w-100"
-                                alt="Image">
-                        </div>
-                        <div class="rounded-bottom p-4">
-                            <a href="#" class="h4 d-inline-block mb-4">Polissage de béton</a>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint?
-                                Excepturi facilis neque nesciunt similique officiis veritatis,
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="service-item">
-                        <div class="service-img">
-                            <img src="img/5fea2953-f821-4dd7-8f49-df57317b5de8.jpg" class="img-fluid rounded-top w-100"
-                                alt="Image">
-                        </div>
-                        <div class="rounded-bottom p-4">
-                            <a href="#" class="h4 d-inline-block mb-4">Revêtement commercial (Epoxy)</a>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint?
-                                Excepturi facilis neque nesciunt similique officiis veritatis,
-                            </p>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>
-    <!-- Services End -->
-
-
-
-    <!-- Abvout Start
-    <div class="container-fluid about py-5">
-        <div class="container py-5">
-            <div class="row g-5 align-items-center">
-                <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s">
-                    <div>
-                        <h4 class="text-primary">About Us</h4>
-                        <h1 class="display-5 mb-4">Meet our company unless miss the opportunity</h1>
-                        <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum velit temporibus
-                            repudiandae ipsa, eaque perspiciatis cumque incidunt tenetur sequi reiciendis.
-                        </p>
-                        <div class="row g-4">
-                            <div class="col-md-6 col-lg-6 col-xl-6">
-                                <div class="d-flex">
-                                    <div><i class="fas fa-lightbulb fa-3x text-primary"></i></div>
-                                    <div class="ms-4">
-                                        <h4>Business Consuluting</h4>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-6 col-xl-6">
-                                <div class="d-flex">
-                                    <div><i class="bi bi-bookmark-heart-fill fa-3x text-primary"></i></div>
-                                    <div class="ms-4">
-                                        <h4>Year Of Expertise</h4>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Discover
-                                    Now</a>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="d-flex">
-                                    <i class="fas fa-phone-alt fa-2x text-primary me-4"></i>
-                                    <div>
-                                        <h4>Call Us</h4>
-                                        <p class="mb-0 fs-5" style="letter-spacing: 1px;">+01234567890</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
-                    <div class="bg-primary rounded position-relative overflow-hidden">
-                        <img src="img/about-2.png" class="img-fluid rounded w-100" alt="">
-
-                        <div class="" style="position: absolute; top: -15px; right: -15px;">
-                            <img src="img/about-3.png" class="img-fluid"
-                                style="width: 150px; height: 150px; opacity: 0.7;" alt="">
-                        </div>
-                        <div class="" style="position: absolute; top: -20px; left: 10px; transform: rotate(90deg);">
-                            <img src="img/about-4.png" class="img-fluid"
-                                style="width: 100px; height: 150px; opacity: 0.9;" alt="">
-                        </div>
-                        <div class="rounded-bottom">
-                            <img src="img/about-5.jpg" class="img-fluid rounded-bottom w-100" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    
-    <div class="container-fluid offer-section pb-5">
-        <div class="container pb-5">
-            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <h4 class="text-primary">Our Offer</h4>
-                <h1 class="display-5 mb-4">Benefits We offer</h1>
-                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis
-                    cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt
-                    sint dolorem autem obcaecati, ipsam mollitia hic.
-                </p>
-            </div>
-            <div class="row g-5 align-items-center">
-                <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.2s">
-                    <div class="nav nav-pills bg-light rounded p-5">
-                        <a class="accordion-link p-4 active mb-4" data-bs-toggle="pill" href="#collapseOne">
-                            <h5 class="mb-0">Lending money for investment of your new projects</h5>
-                        </a>
-                        <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseTwo">
-                            <h5 class="mb-0">Lending money for investment of your new projects</h5>
-                        </a>
-                        <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseThree">
-                            <h5 class="mb-0">Mobile payment is more flexible and easy for all investors</h5>
-                        </a>
-                        <a class="accordion-link p-4 mb-0" data-bs-toggle="pill" href="#collapseFour">
-                            <h5 class="mb-0">all transaction is kept free for the member of pro traders</h5>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.4s">
-                    <div class="tab-content">
-                        <div id="collapseOne" class="tab-pane fade show p-0 active">
-                            <div class="row g-4">
-                                <div class="col-md-7">
-                                    <img src="img/offer-1.jpg" class="img-fluid w-100 rounded" alt="">
-                                </div>
-                                <div class="col-md-5">
-                                    <h1 class="display-5 mb-4">The stock market provides a venue...</h1>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-                                        amet sequi molestiae tenetur eum mollitia, blanditiis, magnam illo magni error
-                                        dolore unde perspiciatis tempore et totam corrupti dignissimos aut praesentium?
-                                    </p>
-                                    <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="collapseTwo" class="tab-pane fade show p-0">
-                            <div class="row g-4">
-                                <div class="col-md-7">
-                                    <img src="img/offer-2.jpg" class="img-fluid w-100 rounded" alt="">
-                                </div>
-                                <div class="col-md-5">
-                                    <h1 class="display-5 mb-4">The stock market provides a venue...</h1>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-                                        amet sequi molestiae tenetur eum mollitia, blanditiis, magnam illo magni error
-                                        dolore unde perspiciatis tempore et totam corrupti dignissimos aut praesentium?
-                                    </p>
-                                    <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="collapseThree" class="tab-pane fade show p-0">
-                            <div class="row g-4">
-                                <div class="col-md-7">
-                                    <img src="img/offer-3.jpg" class="img-fluid w-100 rounded" alt="">
-                                </div>
-                                <div class="col-md-5">
-                                    <h1 class="display-5 mb-4">The stock market provides a venue...</h1>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-                                        amet sequi molestiae tenetur eum mollitia, blanditiis, magnam illo magni error
-                                        dolore unde perspiciatis tempore et totam corrupti dignissimos aut praesentium?
-                                    </p>
-                                    <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="collapseFour" class="tab-pane fade show p-0">
-                            <div class="row g-4">
-                                <div class="col-md-7">
-                                    <img src="img/offer-4.jpg" class="img-fluid w-100 rounded" alt="">
-                                </div>
-                                <div class="col-md-5">
-                                    <h1 class="display-5 mb-4">The stock market provides a venue...</h1>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-                                        amet sequi molestiae tenetur eum mollitia, blanditiis, magnam illo magni error
-                                        dolore unde perspiciatis tempore et totam corrupti dignissimos aut praesentium?
-                                    </p>
-                                    <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="container-fluid faq-section pb-5">
-        <div class="container pb-5 overflow-hidden">
-            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <h4 class="text-primary">FAQs</h4>
-                <h1 class="display-5 mb-4">Frequently Asked Questions</h1>
-                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis
-                    cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt
-                    sint dolorem autem obcaecati, ipsam mollitia hic.
-                </p>
-            </div>
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
-                    <div class="accordion accordion-flush bg-light rounded p-5" id="accordionFlushSection">
-                        <div class="accordion-item rounded-top">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed rounded-top" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                    aria-controls="flush-collapseOne">
-                                    What Does This Tool Do?
-                                </button>
-                            </h2>
-                            <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushSection">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the first item's
-                                    accordion body.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                    aria-controls="flush-collapseTwo">
-                                    What Are The Disadvantages Of Online Trading?
-                                </button>
-                            </h2>
-                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushSection">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the second item's
-                                    accordion body. Let's imagine this being filled with some actual content.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                    aria-controls="flush-collapseThree">
-                                    Is Online Trading Safe?
-                                </button>
-                            </h2>
-                            <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushSection">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the second item's
-                                    accordion body. Let's imagine this being filled with some actual content.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
-                                    aria-controls="flush-collapseFour">
-                                    What Is Online Trading, And How Dose It Work?
-                                </button>
-                            </h2>
-                            <div id="flush-collapseFour" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushSection">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the second item's
-                                    accordion body. Let's imagine this being filled with some actual content.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingFive">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseFive" aria-expanded="false"
-                                    aria-controls="flush-collapseFive">
-                                    Which App Is Best For Online Trading?
-                                </button>
-                            </h2>
-                            <div id="flush-collapseFive" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushSection">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the second item's
-                                    accordion body. Let's imagine this being filled with some actual content.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item rounded-bottom">
-                            <h2 class="accordion-header" id="flush-headingSix">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseSix" aria-expanded="false"
-                                    aria-controls="flush-collapseSix">
-                                    How To Create A Trading Account?
-                                </button>
-                            </h2>
-                            <div id="flush-collapseSix" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushSection">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the third item's
-                                    accordion body. Nothing more exciting happening here in terms of content, but just
-                                    filling up the space to make it look, at least at first glance, a bit more
-                                    representative of how this would look in a real-world application.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
-                    <div class="bg-primary rounded">
-                        <img src="img/about-2.png" class="img-fluid w-100" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    -->
 
     <!-- Testimonial Start -->
     <div class="container-fluid testimonial pb-5">
@@ -548,20 +273,18 @@
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Contactez-nous</h4>
-                <h1 class="display-5 mb-4">Discuter de votre projet et obtenir une soumission personnalisée.</h1>
+                <h1 class="display-5 mb-4">Obtenez une soumission personnalisée.</h1>
             </div>
             <div class="row g-5 align-items-start">
                 <!-- Texte à gauche -->
                 <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s"
                     style="padding-top: 0; font-size: 1.1rem; line-height: 1.6;">
                     <h5 class="text-primary mb-4">Notre expertise à votre service</h5>
-                    <p>Notre entreprise est le partenaire idéal pour tous vos projets de béton commercial, industriel ou
-                        institutionnel, partout au Québec.</p>
+                    <p>Notre entreprise est le partenaire idéal pour tous vos projets partout au Québec.</p>
                     <p>N’hésitez pas à nous envoyer un message via le formulaire ou à nous appeler directement
                         pour un échange rapide.</p>
                     <p><i class="fas fa-phone-alt text-primary me-2"></i><strong>(438) 227 5660</strong></p>
                     <p><i class="fas fa-envelope text-primary me-2"></i><strong>cimentier@chaboillez.com</strong></p>
-                    <p><i class="fas fa-map-marker-alt text-primary me-2"></i><strong>Saint-Adolphe-d'Howard</strong>
                     </p>
                     <p><i class="fas fa-file-alt text-primary me-2"></i><strong>RBQ: 5849-4162-01</strong></p>
                 </div>
@@ -574,16 +297,16 @@
                             <div class="row g-4">
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control border-0" id="nom"
-                                            placeholder="Nom complet" required>
-                                        <label for="nom">Nom complet</label>
+                                        <input type="text" class="form-control border-0" id="prenom"
+                                            placeholder="Prénom" required>
+                                        <label for="prenom">Prénom</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="email" class="form-control border-0" id="email"
-                                            placeholder="Adresse courriel" required>
-                                        <label for="email">Adresse courriel</label>
+                                        <input type="text" class="form-control border-0" id="nom" placeholder="Nom"
+                                            required>
+                                        <label for="nom">Nom</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -595,9 +318,9 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control border-0" id="type-projet"
-                                            placeholder="Type de projet" required>
-                                        <label for="type-projet">Type de projet</label>
+                                        <input type="email" class="form-control border-0" id="email"
+                                            placeholder="Adresse courriel" required>
+                                        <label for="email">Adresse courriel</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
