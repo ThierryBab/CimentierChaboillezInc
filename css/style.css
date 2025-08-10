@@ -73,7 +73,7 @@
 
 .btn.btn-primary:hover {
     background: var(--bs-dark);
-    color: var(--bs-primary);
+    color: var(--bs-white);
 }
 
 .btn.btn-light {
@@ -381,7 +381,7 @@
 .bg-breadcrumb {
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/carousel-1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/Photo\ 2025-06-11\ 12\ 30\ 05.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -897,7 +897,7 @@
 
 /*** Footer Start ***/
 .footer {
-    background: white
+    background: rgb(240, 240, 240)
 }
 
 .footer .footer-item {
