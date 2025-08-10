@@ -897,7 +897,7 @@
 
 /*** Footer Start ***/
 .footer {
-    background: var(--bs-secondary);
+    background: white
 }
 
 .footer .footer-item {
@@ -935,7 +935,10 @@
 
 /*** copyright Start ***/
 .copyright {
-    background: var(--bs-dark);
+    background: rgb(53, 53, 53);
+}
+.copyright span {
+    color: white;
 }
 /*** copyright end ***/
 
