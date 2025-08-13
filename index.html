@@ -8,10 +8,11 @@
     <meta content="" name="keywords">
     <meta content="" name="description">
     <meta property="og:title" content="Cimentier Chaboillez Inc – Finition et Polissage de Béton Québec" />
-    <meta property="og:image" content="https://thierrybab.github.io/CimentierChaboillezInc/index.html/img/5fea2953-f821-4dd7-8f49-df57317b5de8.jpg" />
+    <meta property="og:image"
+        content="https://thierrybab.github.io/CimentierChaboillezInc/index.html/img/5fea2953-f821-4dd7-8f49-df57317b5de8.jpg" />
     <meta property="og:url" content="https://thierrybab.github.io/CimentierChaboillezInc/index.html" />
     <meta property="og:type" content="website" />
-     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:card" content="summary_large_image" />
 
     <!-- Favicons -->
     <link rel="icon" href="img/favicon_io/favicon.ico" type="image/x-icon">
@@ -262,14 +263,14 @@
                 <!-- Service 1 -->
                 <div class="col-md-6 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="service-img">
-                        <img src="img/couleeTemporaire.jpg" alt="Coulée et finition de béton">
+                        <img src="img/6a2fed45-150d-4e3b-b18d-f96bc04e5311.png" alt="Coulée et finition de béton">
                         <div class="service-overlay">
                             <h4>COULÉE ET FINITION DE BÉTON</h4>
                             <ul>
-                                <li>Coulée de dalle au sol (jusqu’à 45,000 p.c.)</li>
+                                <li>Coulée de dalle au sol</li>
                                 <li>Coulée de dalle structurale</li>
                                 <li>Finition manuelle et avec équipement</li>
-                                <li>Service de cure NCF et polythène</li>
+                                <li>Service de cure</li>
                             </ul>
                         </div>
                     </div>
@@ -296,12 +297,10 @@
                         <div class="service-overlay">
                             <h4>PRÉPARATION ET RESURFAÇAGE DE SURFACE</h4>
                             <ul>
-                                <li>Blastrac (grenaillage)</li>
-                                <li>Scarification (à lame et à baril)</li>
-                                <li>Meulage et bouchardage</li>
-                                <li>Retrait de contaminant</li>
-                                <li>Enlèvement de membranes</li>
                                 <li>Restauration de planchers de béton</li>
+                                <li>Meulage</li>
+                                <li>Scarification</li>
+                                <li>Blastrac</li>
                             </ul>
                         </div>
                     </div>
@@ -310,7 +309,7 @@
                 <!-- Service 4 -->
                 <div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="service-img">
-                        <img src="img/Photo 2025-06-21 16 57 01.jpg" alt="Sciage et scellants">
+                        <img src="img/Photo 2025-08-10 19 45 48.png" alt="Sciage et scellants">
                         <div class="service-overlay">
                             <h4>SCIAGE ET SCELLANTS</h4>
                             <ul>
@@ -377,40 +376,40 @@
                 <!-- Formulaire à droite -->
                 <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
                     <div class="bg-light p-5 rounded">
-                        <form>
+                        <form id="contactForm" action="https://formspree.io/f/xkgzenry" method="POST">
                             <div class="row g-4">
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control border-0" id="prenom"
-                                            placeholder="Prénom" required>
+                                        <input type="text" name="prenom" class="form-control border-0" id="prenom"
+                                            placeholder="Prénom">
                                         <label for="prenom">Prénom</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control border-0" id="nom" placeholder="Nom"
-                                            required>
+                                        <input type="text" name="nom" class="form-control border-0" id="nom"
+                                            placeholder="Nom">
                                         <label for="nom">Nom</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="tel" class="form-control border-0" id="telephone"
-                                            placeholder="Téléphone" required>
+                                        <input type="tel" name="telephone" class="form-control border-0" id="telephone"
+                                            placeholder="Téléphone">
                                         <label for="telephone">Téléphone</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="email" class="form-control border-0" id="email"
-                                            placeholder="Adresse courriel" required>
+                                        <input type="email" name="email" class="form-control border-0" id="email"
+                                            placeholder="Adresse courriel">
                                         <label for="email">Adresse courriel</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <textarea class="form-control border-0" placeholder="Votre message" id="message"
-                                            style="height: 150px" required></textarea>
+                                        <textarea name="message" class="form-control border-0"
+                                            placeholder="Votre message" id="message" style="height: 150px"></textarea>
                                         <label for="message">Votre message</label>
                                     </div>
                                 </div>
@@ -421,6 +420,7 @@
                         </form>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -505,10 +505,13 @@
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/formulaire.js" defer></script>
+
 </body>
 
 </html>
