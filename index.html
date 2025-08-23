@@ -210,9 +210,18 @@
             <p class="mb-0" style="font-weight: bold;">Notre expertise en action</p>
         </div>
 
-        <div class="wow fadeInUp" data-wow-delay="0.4s" style="max-width: 1300px; margin: 0 auto;">
-            <video class="w-100 rounded-3 shadow-lg" autoplay muted loop playsinline controls>
-                <source src="img/Video 2025-08-17, 5 56 24 PM.mp4" type="video/mp4">
+        <!-- Horizontal video (desktop only) -->
+        <div class="wow fadeInUp d-none d-md-block" data-wow-delay="0.4s" style="max-width: 1300px; margin: 0 auto;">
+            <video class="w-100 rounded-3 shadow-lg" autoplay muted loop playsinline>
+                <source src="video/honrizontal.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture vidéo.
+            </video>
+        </div>
+
+        <!-- Vertical video (mobile only) -->
+        <div class="wow fadeInUp d-block d-md-none" data-wow-delay="0.4s" style="max-width: 500px; margin: 0 auto;">
+            <video class="w-100 rounded-3 shadow-lg" autoplay muted loop playsinline>
+                <source src="video/VERTICAL.mp4" type="video/mp4">
                 Votre navigateur ne supporte pas la lecture vidéo.
             </video>
         </div>
